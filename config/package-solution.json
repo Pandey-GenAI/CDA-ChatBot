@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cda-chat-bot-client-side-solution",
+    "id": "a52eb002-28cc-4417-ac1e-a4e2f4b7a919",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cda-chat-bot description"
+      },
+      "longDescription": {
+        "default": "cda-chat-bot description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cda-chat-bot Feature",
+        "description": "The feature that activates elements of the cda-chat-bot solution.",
+        "id": "5e5be07b-dadc-4796-a547-023205799838",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cda-chat-bot.sppkg"
+  }
+}

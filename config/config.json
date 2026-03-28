@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cda-chat-bot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cdaChatBot/CdaChatBotWebPart.js",
+          "manifest": "./src/webparts/cdaChatBot/CdaChatBotWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CdaChatBotWebPartStrings": "lib/webparts/cdaChatBot/loc/{locale}.js"
+  }
+}
