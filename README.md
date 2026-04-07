@@ -1,8 +1,8 @@
-# cda-chat-bot
+# 🎯 Career Discovery Assistant(CDA) Chat Bot
 
 ## Summary
 
-Short summary on functionality and used technologies. to add in share point.
+The Career Discovery Assistant (CDA) Chat Bot is a SharePoint-Integrated solution  
 
 [picture of the solution in action, if possible]
 
