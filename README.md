@@ -50,7 +50,9 @@ Short summary on functionality and used technologies. to add in share point.
   - `heft start`
 
 > Include any additional steps as needed.
-
+# trouble shoot when SSL error or 'debug true&noredir true&debugmanifestsfile https localhost 4321 temp manifests js'
+Step 1 - Trust the certificate: `heft trust-dev-cert`
+Step 2 - run this in browser `https://localhost:4321/` and accept certificate. and try to run `heft start` again  
 Other build commands can be listed using `heft --help`.
 
 ## Features
